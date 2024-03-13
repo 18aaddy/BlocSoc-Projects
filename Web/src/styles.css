@@ -1,0 +1,108 @@
+.root {
+  width: 100%;
+  height: 1000px;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    color: #ddd; 
+    background-color: #222; 
+    height: 100%;
+  }
+  
+.Header {
+    display: grid;
+    grid-template-columns: 470px 1fr;
+    height: 100px;
+    padding: 1rem 2rem; 
+    background-color: #333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  }
+  
+.Logo-Div {
+    width: 100%;
+    height: 100%;
+    padding: 13px;
+  }
+  
+.Logo {
+    height: 60px;
+    width: 60px;
+    align-self: center;
+    border-radius: 100px;
+    transition: box-shadow 0.15s;
+  }
+
+.Logo:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 13px rgb(47, 196, 245);
+  }
+
+.Heading-Div {
+    height: 70px;
+    text-align: center;   
+    width: 200px;
+    padding: 0px;
+  }
+    
+.h1 {
+    font-family: "Fjalla One", sans-serif;
+    margin-right: 100px; 
+    padding: 17px;
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 3rem;
+    color: #eee; 
+}
+
+.fjalla-one-regular {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page {
+  display: grid;
+  height: 850px;
+  flex-direction: row;
+  grid-template-columns: 17% 1fr;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.main-content {
+  display: flex;
+  background-color: #303030;
+  border-color: #464645;
+}
+
+.side-panel {
+  height: 100%;
+  background-color: #303030;
+  border: 10px;
+  border-color: #464645;
+}
+
+.list {
+  position: fixed;
+}
+
+.rest-of-the-page {
+  flex: 1;
+  padding: 30px;
+}
+
+button {
+  background-color: #7d7d7d;
+  border-radius: 7px;
+  border-color: #ddd;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+  color: #ddd;
+  text-decoration-line: none;
+}
+
+
